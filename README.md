@@ -1,19 +1,15 @@
 # Capstone-Android-App-Development
+# NextStop
 
-#Key Features
+Discover and plan your next trip to the top destinations. Explore the world and get inspired to travel more with this travel app. Get personalised recommendations of things to do, places to see.
 
-This projects aim at getting the latest articles from Newyork times newspaper and display them as a list.
-The user will be able to select any of the article and further read that article in a separate view.
-User can also save them as favourite for later reading.
-The app will remind him in some via a notification that he can read the article that he saved.
-Software Components
+# Features
+●	Recommends top places to visit - uses Google Places API
+●	Personalized user experience based on user’s profile , the app lists the top places a user would be interested to visit next.
+●	Search for places by keywords , natural language.
+●	See the details of a certain place.
+●	Mark and plan a trip with friends
+●	See Flight info , accommodations , custom tour package information
+●	Receive recommendations from friends.
+●	Personally configure some application settings: default order used in the results screen, mark trip dates , organize a chat with travel buddies.
 
-Activity
-Fragments
-Content Providers
-Broadcast Receivers
-Service
-
-#URL
-
-http://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=cd2506cf35504016a7579eea094ad1bd
