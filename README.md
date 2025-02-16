@@ -1,15 +1,33 @@
-# Capstone-Android-App-Development
-# NextStop
+# Image filtering
 
-Discover and plan your next trip to the top destinations. Explore the world and get inspired to travel more with this travel app. Get personalised recommendations of things to do, places to see.
+# Purpose of app
+Apply filters to chosen image and save filtered image to device.
 
-# Features
-●	Recommends top places to visit - uses Google Places API
-●	Personalized user experience based on user’s profile , the app lists the top places a user would be interested to visit next.
-●	Search for places by keywords , natural language.
-●	See the details of a certain place.
-●	Mark and plan a trip with friends
-●	See Flight info , accommodations , custom tour package information
-●	Receive recommendations from friends.
-●	Personally configure some application settings: default order used in the results screen, mark trip dates , organize a chat with travel buddies.
+# Key features
+User can choose image to filter in three ways:
+Select image from device's storage;
+Download image from Internet by specifying its URL;
+Download image from Internet by choosing default URL.
+User can apply any amount of filters to image. Available filters are:
+Color inversion;
+Convert to grayscale;
+Gaussian blur;
+Sharpening;
+GBR (Switch colors in such way: Red to Green, Green to Blue, Blue to Red);
+BRG (Switch colors in such way: Red to Blue, Green to Red, Blue to Green).
+User can clear all filters from image to reapply filters in other way.
+User can save filtered image to local storage.
+Fundamental Android components used in this app
+Activities to:
+Choose image load method;
+Choose image from gallery;
+Apply filters to image;
+DownloadManager Service to download image from URL;
+BroadcastReceiver to process finished download;
+ContentProvider to load and save images in local storage.
+# Interaction with remote web service
+In case user chooses to download image from default URL, the image will be downloaded from http://picsum.photos/500 This URL generates random JPEG image sized 500x500 pixels.
 
+# Main components
+
+![Diagram](https://github.com/user-attachments/assets/0036f674-f934-428c-85cd-d924c11b9d73)
